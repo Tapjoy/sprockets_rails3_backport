@@ -3,7 +3,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = "sprockets_rails3_backport"
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["James MacAulay"]
   s.email       = ["james@shopify.com"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
 
   s.add_dependency('rails', '~> 3.0.0')
-  s.add_dependency('sprockets', '2.1.2')
+  s.add_dependency('sprockets', '2.1.2.1')
 
   s.files        = Dir.glob("lib/**/*") + %w(MIT-LICENSE README.markdown)
   s.require_path = 'lib'
